@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+    font-size: 35px;
+    color:aliceblue;
+    padding: 20px;
+}
+.inputHeader{
+    flex: 1;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding: 20px;
+}
+.inputPosts{
+    flex: 1;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding: 20px;
+}
+.addButton{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ce375a;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+button:hover{
+    color:#4e085f;
+    border-color:#4e085f 5px;
+}
+.block-input{
+    padding:20px;
+    margin:20px;
+}
+.postsContainer{
+    padding: 20px;
+    background-color: transparent;
+    width:60%;
+    height: 60vh;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dashed #9fe86c; 
+    padding: 20px; 
+}
+.postsContainer h2 {
+    color: rgb(123, 123, 224); 
+}
+
+.postsContainer p {
+    color: rgb(179, 225, 242); 
+}
