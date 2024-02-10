@@ -1,4 +1,3 @@
-// JavaScript
 const inputHeader = document.querySelector('.inputHeader');
 const inputPosts = document.querySelector('.inputPosts');
 const addButton = document.querySelector('.addButton');

@@ -1,0 +1,18 @@
+{
+  "name": "week-19",
+  "version": "1.0.0",
+  "description": "page with input fields for texts and button",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "week-19"
+  },
+  "keywords": [
+    "input-text-button"
+  ],
+  "author": "Bemadler",
+  "license": "ISC"
+}
